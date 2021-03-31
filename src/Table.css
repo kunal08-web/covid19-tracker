@@ -1,0 +1,25 @@
+.app__table {
+  margin-top: 20px;
+  overflow-y: auto;
+  height: 390px;
+  color: #6a5d5d;
+}
+
+.app__table::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app__table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__table td {
+  padding: 5px;
+}
+
+.app__table tr:nth-child(odd) {
+  background-color: rgb(245, 244, 244);
+}

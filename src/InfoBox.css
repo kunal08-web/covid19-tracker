@@ -1,0 +1,34 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid greenyellow;
+}
+
+.infoBox--red {
+  border-top: 10px solid red;
+}
+
+.infoBox__title {
+  font-weight: bold !important;
+}
+
+@media (max-width: 600px) {
+  .infoBox__title {
+    font-size: 14px !important;
+  }
+
+  .infoBox__recentCases {
+    font-size: 20px;
+  }
+
+  .infoBox__totalCases {
+    font-size: 15px !important;
+  }
+}
